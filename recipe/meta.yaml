@@ -1,5 +1,5 @@
 {% set version = "3.8.0" %}
-{% set nvshmem4py_version = "0.4.0.38976383" %}
+{% set nvshmem4py_version = "0.4.0.38966635" %}
 
 {% set soname = version.split(".")[0] %}
 
