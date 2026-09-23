@@ -1,5 +1,5 @@
 {% set version = "3.8.0" %}
-{% set nvshmem4py_version = "0.3.1.38523630" %}
+{% set nvshmem4py_version = "0.4.0.38976383" %}
 
 {% set soname = version.split(".")[0] %}
 
@@ -18,7 +18,7 @@ source:
     sha256: "949de817686f8d65c278c5e644c86c69271d63945db2ca71a40c2f7db9b134f6"  # [linux and aarch64 and (cuda_compiler_version or "").startswith("13") and arm_variant_type == "sbsa"]
   - url: "https://developer.download.nvidia.com/compute/nvshmem/redist/nvshmem_python/source/nvshmem_python-source-{{ nvshmem4py_version }}_cuda13-archive.tar.xz"
     folder: nvshmem4py
-    sha256: "53317d2b759a570020c96c0a39ac67ca3a802ac35d81f7ca345b2877270ffd39"
+    sha256: "19b9a2bd67e3d9615f3d082b5f4319a8acb83140a56868a9db5a77b9c1221064"
 
 build:
   number: 0
